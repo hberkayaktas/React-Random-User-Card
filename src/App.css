@@ -1,0 +1,30 @@
+*{
+  margin:0px;
+  padding: 0px;
+
+}
+.matilda{
+  background-color: rebeccapurple;
+  color:white;
+
+}
+
+.matilda > li {
+  list-style-type: none;
+  margin: 5px;
+  border: 3px white solid;
+  border-radius: 5px;
+  padding: 5px;
+  display: flex;
+}
+
+
+
+.matilda > li:first-child{
+  margin-top: 0px;
+}
+
+.matrix {
+  display: flex;
+  gap: 10px;
+}
